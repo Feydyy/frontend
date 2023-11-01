@@ -1,0 +1,9 @@
+çerçeve kalınlığı 20px
+resim boyutu 250*250
+padding 50px
+çerçe rengi kırmızı
+
+
+id veya class demeden bir selectorle istanbulu mavi yaz
+
+

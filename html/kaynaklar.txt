@@ -1,0 +1,14 @@
+div ayırıyor
+css stillendirme
+user adent tarayıcılara göre özel yorumlama entegre etme
+pading içe doğru sıkıştır
+classs birden fazla elemente 
+id tek elemente verilir
+border style çerçeve 
+hover komutu üstüne geldiğinde komut olsun
+id veya class demeden bir selectorle istanbulu mavi yaz
+
+css selectors
+Justfly content center elementleri ortalama enlemesine
+space between araalığa boşluk yap
+align boydan aralık bırakma 

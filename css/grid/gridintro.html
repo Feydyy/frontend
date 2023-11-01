@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 300px;
+            height: 500px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            border-radius: 5px;
+            margin: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: inline;
+
+        }
+
+        /* 0-800 arası */
+        @media only screen and (max-width: 800px) {
+            .container {
+                display: grid;
+                grid-template-columns: auto auto
+            }
+
+            .box {
+                height: 200px;
+                width: 200px;
+                border-style: solid;
+                display: inline;
+            }
+
+            h1 {
+                font-weight: bold;
+                color: black;
+            }
+
+            img {
+                width: 10px;
+                height: 10;
+                margin-bottom: 30px;
+                display: inline;
+            }
+
+            .kargo {
+
+                border-style: solid;
+                border-width: 10px;
+                border-color: rgb(0, 0, 0);
+                border-radius: 5px;
+                width: 200px;
+                display: inline;
+            }
+
+            font-size: small
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <img src="https://cdn.vatanbilgisayar.com/Upload/PRODUCT/apple/thumb/129885-1_small.jpg" alt="">
+            <p>MLPG3TU/A</p>
+            <p>iPhone 13 128 Gb Akilli Telefon Yildiz isigi</p>
+            <h1>36.499 TL</h1>
+        </div>
+        <div class="box">
+            <img src="https://cdn.vatanbilgisayar.com/Upload/PRODUCT/acer/thumb/140541-3_small.jpg" alt="">
+            <p>A315-58-5258</p>
+            <p>Acer Aspire 3 11.Nesil Core i5 1135G7-8Gb-512Gb Ssd-15.6inc-W11</p>
+            <h1>13.999 TL</h1>
+        </div>
+        <div class="box">
+            <img src="https://cdn.vatanbilgisayar.com/Upload/PRODUCT/onvo/thumb/139337-1_small.jpg" alt="">
+            <p>OV55F950</p>
+            <p>ONVO OV55F950 55inc 140 cm UHD Frameless Google Smart TV,Uydu</p>
+            <h1>10.399 TL</h1>
+        </div>
+        <div class="box">
+            <img src="https://cdn.vatanbilgisayar.com/Upload/PRODUCT/philips/thumb/123248_small.jpg" alt="">
+            <p>DST5020/30</p>
+            <p>PHILIPS DST5020/30 BUHARLI ÜTÜ</p>
+            <h1>1.199 TL</h1>
+        </div>
+    </div>
+
+</body>
+
+</html>
