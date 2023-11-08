@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div><h1> Sonuç</h1></div>
+    <div>
+        <label for="">Number1</label>
+        <input type="text" id="data" value="">
+    </div>
+    <div>
+        <label for="">Number2</label>
+        <input type="text" id="data" value="">
+    </div>
+    <div>
+        <button onclick="Topla()">Topla</button>
+        <button onclick="Çarp()">Çarp</button>
+    </div>
+    <div>
+        <button onclick="Çıkar()">Çıkar</button>
+        <button onclick="Böl()">Böl</button>
+    </div>
+    <div>
+        <button onclick="KarekökAlma()">KarekökAlma</button>
+    </div>
+    
+    <script>
+        // Ekrana bir adet input bir adet buton koy. Butona tıkladığında input a girdiği değerin KARESİNİ h1 içerisine yazsın
+
+        function Topla() {
+            var Number1 = document.getElementById('data').value;
+            var Number2 = document.getElementById('data').value;
+
+            var result = Number1 + Number2;
+
+            document.querySelector("h1").innerText = result
+        }
+        function Çarp() {
+            var Number1 = document.getElementById('data').value;
+            var Number2 = document.getElementById('data').value;
+
+            var result = Number1 * Number2;
+
+            document.querySelector("h1").innerText = result
+        }
+        function Çıkar() {
+            var Number1 = document.getElementById('data').value;
+            var Number2 = document.getElementById('data').value;
+
+            var result = Number1 - Number2;
+
+            document.querySelector("h1").innerText = result
+        }
+        function Böl() {
+            var Number1 = document.getElementById('data').value;
+            var Number2 = document.getElementById('data').value;
+
+            var result = Number1 / Number2;
+
+            document.querySelector("h1").innerText = result
+        }
+        function KarekökAlma() {
+            var Number1 = document.getElementById('data').value;
+            var Number2 = document.getElementById('data').value;
+
+            var result = Number1 ^ 1/2;
+
+            document.querySelector("h1").innerText = result
+        }
+    </script>
+</body>
+
+</html>
