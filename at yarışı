@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <div
+        style="width: 650px; height: 300px; background-color: chartreuse; padding-left: 20px; padding-top: 20px; display: flex; flex-direction: row;">
+        <div style="width: 470px;">
+            <button onclick="fonk1()" style="width: 50px; height: 20px;">Start</button>
+            <div id="At1">
+                <img style="width: 100px; height: 50px; padding-top: 20px;" src="https://www.wallpaperflare.com/static/102/243/790/horse-running-trees-mane-wallpaper.jpg" alt="">
+            </div>
+            
+            <div id="At2">
+                <img style="width: 100px; height: 50px; padding-top: 20px;" src="https://maggenta.com/media/product/1086/kosan-beyaz-at-manzara-duvar-kagidi_1.jpg" alt="">
+            </div>
+            
+            <div id="At3">
+                <img style="width: 100px; height: 50px; padding-top: 20px;" src="https://w.forfun.com/fetch/e4/e4b34894b87fd5b6de3a24ada771e38a.jpeg" alt="">
+            </div>
+            
+        </div>
+        <div style="width: 8px; height: 300px; background-color: rgb(255, 0, 0);"></div>
+    </div>
+</body>
+<script>
+var total = 0;
+function fonk1(){
+    setInterval(() => {
+        
+        var x = Math.floor(Math.random() * 3+1);
+        total += 25;
+        document.querySelector(`#At${x}`).style.marginLeft = total + "px";
+
+    }, 500);
+}
+
+</script>
+
+</html>
