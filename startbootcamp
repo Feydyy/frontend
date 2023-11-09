@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            gap: 15px;
+    
+        }
+    
+    
+        display: flex 
+        .box {
+            height: 100px;
+            width:  1500px;
+            border-style: solid;
+            border-color: rgb(44, 33, 97);
+    
+    
+        }
+    </style>
+</head>
+
+
+
+<body>
+    
+
+<div class="box">
+    <h1>START BOOTSTRAP</h1> 
+    <span>PORTFOLIO</span>
+    <span>ABOUT</span>
+    <span>CONTENT</span>
+    </SPAN>
+</div>
+    <div>
+        <img style="width: 250px; height: 250px; border-style: solid; color: rgb(255, 255, 255); padding-top: 150px; padding-left: 600px;"
+            src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/avataaars.svg" alt="">
+    </div>
+
+</body>
+<div>
+    <h1 style="padding-top: 10px; padding-left: 550px;">START BOOTSTRAP</h1>
+    <h2 style="padding-top: 10px; padding-left: 500px;">Graphic Artist - Web Designer - Illustrator</h2>
+</div>
+
+<body>
+    <div style="display: inline;">
+
+        <img style="width: 250px; height: 250px; border-style: solid; color: rgb(255, 255, 255); padding-left: 350px; display: inline;"
+            src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cabin.png" alt="">
+    </div>
+
+
+    <div style="display: inline;">
+
+        <img style="width: 250px; height: 250px; border-style: solid; color: rgb(255, 255, 255); display: inline;"
+            src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/cake.png" alt="">
+    </div>
+
+    <div style="display: inline;">
+
+        <img style="width: 250px; height: 250px; border-style: solid; color: rgb(255, 255, 255); display: inline;"
+            src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/circus.png" alt="">
+    </div>
+    <div>
+
+        <img style="width: 250px; height: 250px; border-style: solid; color: rgb(255, 255, 255); padding-left: 350px;"
+            src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/game.png" alt="">
+        <img style="width: 250px; height: 250px; border-style: solid; color: rgb(255, 255, 255); display: inline;"
+            src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/safe.png" alt="">
+        <img style="width: 250px; height: 250px; border-style: solid; color: rgb(255, 255, 255); display: inline;"
+            src="https://startbootstrap.github.io/startbootstrap-freelancer/assets/img/portfolio/submarine.png" alt="">
+
+    </div>
+
+</body>
+
+
+<nav>
+    display: flex;
+
+
+    <ul></ul>
+</nav>
+
+</html>
