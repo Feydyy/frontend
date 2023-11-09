@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    
+    <div>
+        <button onclick="Add()">Add</button>
+        <label for="">Name:</label>
+        <input type="text" id="Name">
+
+        <label for="">SurName:</label>
+        <input type="text" id="SurName">
+        <ul>
+
+        </ul>
+
+    </div>
+
+
+</body>
+<script>
+    function Add() {
+        var Name = document.getElementById("Name").value;
+        var SurName = document.getElementById("SurName").value;
+        let li = document.createElement("li")
+        li.style.cursor = "pointer"
+        li.innerText = (Name + " " + SurName).toUpperCase();
+        document.querySelector("ul").appendChild(li)
+    }
+    
+
+</script>
+
+</html>
